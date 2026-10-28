@@ -3,7 +3,7 @@ import { defineNuxtPlugin } from 'nuxt/app'
 import { get, set, del } from 'idb-keyval'
 
 export default defineNuxtPlugin({
-  name: 'desktop-plugin-persistence',
+  name: 'desktop-plugin-pinia-persistence',
   dependsOn: ['pinia'],
   enforce: 'pre',
   setup(nuxtApp) {

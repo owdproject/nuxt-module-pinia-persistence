@@ -1,10 +1,11 @@
 import { addPlugin, createResolver } from '@nuxt/kit'
-import { defineDesktopModule } from '@owdproject/core/kit/authoring'
+import type { NuxtModule } from '@nuxt/schema'
+import { defineDesktopModule } from 'nuxt-desktop/kit'
 
-export default defineDesktopModule({
+const module: NuxtModule<any> = defineDesktopModule({
   meta: {
-    name: 'desktop-module-persistence',
-    configKey: 'persistence',
+    name: 'desktop-module-pinia-persistence',
+    configKey: 'piniaPersistence',
   },
   setup() {
     const { resolve } = createResolver(import.meta.url)
@@ -15,3 +16,5 @@ export default defineDesktopModule({
     })
   },
 })
+
+export default module
