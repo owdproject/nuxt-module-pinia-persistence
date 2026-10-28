@@ -1,5 +1,5 @@
 {
-  "name": "@owdproject/module-persistence-playground",
+  "name": "@owdproject/nuxt-persistence-pinia-playground",
   "private": true,
   "type": "module",
   "scripts": {
@@ -10,7 +10,7 @@
   "dependencies": {
     "@owdproject/app-todo": "workspace:*",
     "@owdproject/core": "workspace:*",
-    "@owdproject/module-persistence": "workspace:*",
+    "@owdproject/nuxt-persistence-pinia": "workspace:*",
     "@owdproject/theme-nova": "workspace:*",
     "nuxt": "^4.4.4"
   }

@@ -2,7 +2,7 @@ import { defineDesktopConfig } from '@owdproject/core'
 
 export default defineDesktopConfig({
   theme: '@owdproject/theme-nova',
-  modules: ['@owdproject/module-persistence'],
+  modules: ['@owdproject/nuxt-persistence-pinia'],
   apps: ['@owdproject/app-todo'],
   systemBar: { enabled: true, startButton: true },
 })
