@@ -1,9 +1,9 @@
 {
-  "name": "@owdproject/module-nuxt-pinia-persistence",
+  "name": "@owdproject/nuxt-module-pinia-persistence",
   "version": "4.0.0-alpha.3",
   "description": "Pinia persistence via IndexedDB (idb-keyval) for Open Web Desktop",
   "license": "MIT",
-  "homepage": "https://github.com/owdproject/nuxt-persistence-pinia",
+  "homepage": "https://github.com/owdproject/nuxt-module-pinia-persistence",
   "author": {
     "name": "Open Web Desktop Team",
     "url": "https://github.com/owdproject"
@@ -44,7 +44,7 @@
   },
   "devDependencies": {
     "@nuxt/module-builder": "^1.0.2",
-    "@owdproject/app-nuxt-todo": "^4.0.0-alpha.3",
+    "@owdproject/nuxt-app-todo": "^4.0.0-alpha.3",
     "@owdproject/core": "^4.0.0-alpha.3",
     "nuxt": "^4.4.4",
     "pinia": "^3.0.0",
