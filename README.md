@@ -19,7 +19,7 @@ This module registers [`pinia-plugin-persistedstate-2`](https://github.com/wobso
 ## Installation
 
 ```bash
-pnpm desktop add @owdproject/module-persistence
+pnpm desktop add @owdproject/nuxt-module-pinia-persistence
 ```
 
 ## License
