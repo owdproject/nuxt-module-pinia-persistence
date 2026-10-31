@@ -11,7 +11,7 @@
     "@owdproject/nuxt-app-todo": "^4.0.0-alpha.3",
     "@owdproject/core": "^4.0.0-alpha.3",
     "@owdproject/nuxt-module-pinia-persistence": "workspace:*",
-    "@owdproject/nuxt-theme-nova": "^4.0.0-alpha.3",
+    "@owdproject/nuxt-theme-paper": "^4.0.0-alpha.3",
     "nuxt": "^4.4.4"
   }
 }
